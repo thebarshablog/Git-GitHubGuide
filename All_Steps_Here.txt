@@ -1,0 +1,34 @@
+# Git Commands Barsha Knows & Uses:
+
+$ git init
+$ ls -l
+$ git status
+$ git add `filename.extension`
+$ git commit
+$ git commit -m `"commit message"`
+$ git checkout
+$ git log
+$ git log -p `-specific_commit_number`
+$ git diff   <!------Shows the changes you made in your file. Compares working tree with staging area---------->
+$ git diff --staged      <!------------Comparing staging area with last commit-------------->
+$ git commit -a -m         <!------------------Skips the staging areas and directly commits----------------->
+$ git rm          <!-------------To remove from both staging area and working directory----------------->
+$ git rm --cached         <!--------------To remove from staging area but will stay in the hard disk----------->
+$ .gitignore           <!----------- # What It does 
+                                     *.extension ----------------->
+$ git branch `branchname`
+                   
+__________________________________________________________________________________________________________________________________________________________________
+
+# Steps To Push Files from Local Repository to Remote Repository Using CLI
+
+<!-------------SAMPLE CODE-------------->
+
+STEP 1: $ git clone `Copy HTTP or SSH Syntax from the code section of the forked repository`.
+STEP 2: $ cd `directory-name`
+STEP 3: $ git checkout -b `branch-name`
+STEP 4: Make the changes in the files you want and save them.
+STEP 5: $ git add `name-of-the-file-you-made-changes-in/.extension`
+STEP 6: $ git commit -m "commit message"
+STEP 7: $ git status
+STEP 8: $ git push origin `branch-name`
