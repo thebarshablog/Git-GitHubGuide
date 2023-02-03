@@ -32,3 +32,13 @@ STEP 5: $ git add `name-of-the-file-you-made-changes-in/.extension`
 STEP 6: $ git commit -m "commit message"
 STEP 7: $ git status
 STEP 8: $ git push origin `branch-name`
+
+___________________________________________________________________________________________________________________________________________________________________
+
+# Hacking the GitHub Contribution Graph:
+
+- Create a repsitory named `github-bot`, initiate with a readme file and make the repository private to commit changes.
+- Create a new folder in your machine to be able to clone the repository.
+- Use git bash inside the new folder and clone the repository using either HTTPS or SSH and wait.
+- Once cloning is done, start open visual studio code using code . command.
+- Install (if not already installed) Node.js and run using vscode code: https://www.youtube.com/watch?v=eauREi0vwB0
