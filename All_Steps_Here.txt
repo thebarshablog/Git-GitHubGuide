@@ -22,7 +22,7 @@ ________________________________________________________________________________
 
 # Steps To Push Files from Local Repository to Remote Repository Using CLI
 
-<!-------------SAMPLE CODE-------------->
+                   <!-------------SAMPLE CODE-------------->
 
 STEP 1: $ git clone `Copy HTTP or SSH Syntax from the code section of the forked repository`.
 STEP 2: $ cd `directory-name`
@@ -35,7 +35,9 @@ STEP 8: $ git push origin `branch-name`
 
 ___________________________________________________________________________________________________________________________________________________________________
 
-# Hacking the GitHub Contribution Graph:
+# Hacking the GitHub Contribution Graph: (Credits: Akshay Saini from Uber)
+
+<!--------------------------------PROCESS IN BRIEF------------------------------>
 
 - Create a repsitory named `github-bot`, initiate with a readme file and make the repository private to commit changes.
 - Create a new folder in your machine to be able to clone the repository.
